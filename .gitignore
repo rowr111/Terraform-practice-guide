@@ -3,3 +3,7 @@ simple-web-server/.terraform/plugins/windows_amd64/lock.json
 simple-web-server/.terraform/plugins/windows_amd64/terraform-provider-aws_v2.3.0_x4.exe
 simple-web-server/terraform.tfstate
 *.backup
+*.info
+simple-cluster-of-web-servers/.terraform/plugins/windows_amd64/lock.json
+simple-cluster-of-web-servers/.terraform/plugins/windows_amd64/terraform-provider-aws_v2.3.0_x4.exe
+simple-cluster-of-web-servers/terraform.tfstate
