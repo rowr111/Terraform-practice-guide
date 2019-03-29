@@ -10,6 +10,14 @@ provider "aws" {
   region = "us-east-1"
 }
 
+terraform {
+  backend "s3" {
+    bucket="rowr-terraform-remote-stage-storage"
+    key="terraform.tfstate"
+    region="us-east-1"
+  }
+}
+
 //the 'data' section here tells terraform to fetch all the zones for aws
 data "aws_availability_zones" "all" {}
 
