@@ -1,0 +1,5 @@
+
+simple-web-server/.terraform/plugins/windows_amd64/lock.json
+simple-web-server/.terraform/plugins/windows_amd64/terraform-provider-aws_v2.3.0_x4.exe
+simple-web-server/terraform.tfstate
+*.backup
