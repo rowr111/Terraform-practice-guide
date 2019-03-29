@@ -18,20 +18,20 @@ Like all things in software development, setup is never simple.. first things fi
 3. Create an AWS account if you don't already have one.
 4. [Create a special user for Terraform](https://docs.aws.amazon.com/sdk-for-java/v1/developer-guide/signup-create-iam-user.html) in AWS IAM.  I called mine terraform_user.  
 5. Give this user full admin privs and save their access credentials. You MUST save these details at the time of credentials creation:
-    3. access key id
-    4. secret access key
-    5. password
+    1. access key id
+    2. secret access key
+    3. password
 6. Install [AWS CLI](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html)
 7. Configure the terraform user's aws credentials for use with AWS CLI - there are two options: 
-    6. create credential files: 
-        2. use PowerShell to run 'aws configure', and then input the above credentials when prompted.  
-        3. You will also be prompted to input a default region name and output format, you can leave these blank if you want.
-        4. Afterward, the credentials that Terraform will use will be saved in a new folder at C:\Users\(your username)\.aws
-    7. [set environment variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
+    1. create credential files: 
+        1. use PowerShell to run 'aws configure', and then input the above credentials when prompted.  
+        2. You will also be prompted to input a default region name and output format, you can leave these blank if you want.
+        3. Afterward, the credentials that Terraform will use will be saved in a new folder at C:\Users\(your username)\.aws
+    2. [set environment variables](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-envvars.html)
 8. Install an editor to use with Terraform files - there are a few but recommended ones include:
-    8. [Visual Studio Code](https://code.visualstudio.com/)
-        5. also install the [Terraform extension](https://marketplace.visualstudio.com/items?itemName=mauve.terraform)
-    9. [Atom](https://atom.io/)
+    1. [Visual Studio Code](https://code.visualstudio.com/)
+        1. also install the [Terraform extension](https://marketplace.visualstudio.com/items?itemName=mauve.terraform)
+    2. [Atom](https://atom.io/)
 9. (not required but recommended) have a github account where you will save your work.
 
 Ok, now you're ready to start making things in the Amazon public cloud!
