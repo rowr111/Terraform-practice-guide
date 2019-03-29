@@ -3,12 +3,12 @@
 ### What is Terraform?
 Terraform is a handy devops tool that lets you create machines, network, etc. adhoc in the public cloud provider of your choice (for most ppl, this is AWS).  
 ### Why do these notes exist?
-There are lots of tutorials on how to start using Terraform, but because I really like things explained from scratch including initial setup, I wrote this.  It's for my own personal setup, which is a Windows 10 laptop, but beyond the initial installing of things environment shouldn't matter much, so maybe it can help you too?  
+There are lots of tutorials on how to start using Terraform, but because I really like things explained from scratch including initial setup, I wrote this.  It's for my own personal setup, (Windows 10) but beyond the initial installs environment shouldn't matter much. 
 ### Why AWS?
-I am using AWS because that is the most widely used public cloud provider.  I've already done some work in the past using Azure, and after doing some tutorials I can say that the main difference is just the resources you use.  Don't be fooled, though, Terraform is NOT cloud provider agnostic, you can't just rename things from aws to azure and it'll work, because the structure of their offerings is different.
+AWS is the most widely used public cloud provider.  I've already done some work in the past using Azure, and after doing some tutorials I can say that the main difference is just the resources you use.  Terraform is NOT cloud provider agnostic - you can't just rename things from aws to azure and hope things will work; the structure of their offerings is different.
 
 ## Installation/AWS User Setup
-Like all things in software development, setup is never simple.. first things first, all the installing of things you'll need to do:
+Like all things in software development, setup is never simple.. first things first, all the installing of things:
 
 1. Install [Terraform](https://www.terraform.io/downloads.html) 
     1. I put it at C:\terraform like the example in the Terraform docs, but feel free to put it wherever works for you.
